@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    
+    h1 {
+      color: black;
+      text-align: center;
+    }
+
+    form {
+      background-color: white;
+      padding: 10px;
+      margin: 20px auto;
+      border: 1px solid black;
+      width: 500px;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    input, textarea {
+      display: block;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+
+    input[type="submit"] {
+      background-color: gray;
+      color: white;
+      padding: 5px 10px;
+      border: 1px solid black;
+    }
+  </style>
+  <title>Blog About Me</title>
+</head>
+<body>
+   <nav class="navbar" style="text-align: center;">
+        <a href="index.html">Home</a> 
+        <a href="tentang.html">About me</a>
+        <a href="dokument.pdf">Download CV</a> 
+        <a href="kontak.html">Contact</a> 
+    </nav>
+
+
+
+    <div class="kontak">
+        <h1>Contact Me</h1>
+        <form action="mail.php" method="POST">
+            <label for="name">Nama</label>
+            <input type="text" name="name" placeholder="nama lengkap" />
+            <label for="email">Email</label><br />
+            <input type="email" name="email" placeholder="alamat email"/>
+            <br />
+            <label for="message">Pesan</label><br />
+            <textarea name="message" placeholder="Tulis pesan anda..." rows="4" cols="80"></textarea>
+            <br />
+            <br />
+            <input type="submit" value="Kirim" />
+        </form>
+    </div>
+
+
+    <footer style="text-align: center;">
+        <p>Copyright &copy Dhananjaya.</p>
+    </footer>
+</body>
+</html>
