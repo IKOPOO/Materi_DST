@@ -1,0 +1,49 @@
+/* universal selector*/
+* {   
+  /* border: 1px solid gray; */
+}
+
+/* selector tag */
+p {
+  color: red;
+}
+
+/* selector class */
+.navbar{
+  background-color: lightblue;
+  color: green;
+}
+
+.text-ungu {
+  color: purple;
+}
+
+/* selector id */
+#judul {
+  font-size: 40px;
+}
+
+/* selector atribut */
+input[type=text]{
+  font-size: 20px;
+  color: blue;
+  border: 2px solid cyan;
+}
+
+
+body p {
+  color: blue;
+}
+
+
+p span {
+  color: orange;
+  font-weight: bold;
+}
+
+
+
+a:hover {
+  color: red;
+  font-weight: bold;
+}
